@@ -367,7 +367,7 @@ footer {
 
 
 /* responsive*/ 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1080px){
 	.navigation {
 		height: 8vh;
 	}
