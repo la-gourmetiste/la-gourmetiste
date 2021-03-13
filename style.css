@@ -1,7 +1,9 @@
+
 body {
 	background-color: #DFB78C;
-
-
+	width: 99vw;
+	margin-left: auto;
+	margin-right: auto;
 }
 	/*  header */
 
@@ -50,15 +52,14 @@ body {
 	align-items: center;
 	justify-content: center;
 	text-transform: capitalize;
-
 	margin: 3vw;
-	border-bottom: black 2px solid;
+	
 }
 .navigation_button:hover {
 	color: #310000;
 	text-shadow: 1px 1px black;
 	font-style: italic;
-	border-bottom: #310000 2px solid;
+	
 	transition: 0.3s;
 }
 .navigation_button p{
@@ -208,7 +209,7 @@ body {
 
 .last_recipe img {
 	height: 75vh;
-	object-position: center; /* Utiliser pour déplacer l'image dans le cadre :) */
+	object-position: 50% 70%; /* Utiliser pour déplacer l'image dans le cadre :) */
 	object-fit: cover;
 	background-color: black;
 	opacity: 80%;
@@ -380,7 +381,7 @@ footer p{
 		height: 8vh;
 	}
 	.navigation_left h1{
-			font-size: 2vh;
+		font-size: 2vh;
 	}
 	.navigation_button p{
 		font-size: 30px;
@@ -415,6 +416,7 @@ footer p{
 	.selection_item {
 		width: 90vw;
 		height: 90vw;
+		margin-top: -25px;
 	}
 	.selection_item p{
 		width: 90vw;
@@ -430,7 +432,7 @@ footer p{
 	}
 
 	.footer_item {
-	line-height: 31px;
+	line-height: 36px;
 }
 	.footer_item p{
 
