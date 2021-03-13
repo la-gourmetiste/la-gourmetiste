@@ -356,6 +356,12 @@ footer {
 	color: #1a1d26;
 }
 
+footer p{
+	color: white;
+	text-align: center;
+	font-size: 1.6vh;
+	padding-top: 1vh;
+}
 
 
 
@@ -426,9 +432,19 @@ footer {
 	.footer_item {
 	line-height: 31px;
 }
+	.footer_item p{
 
+	}
+	footer p {
+	font-size: 1vh;
+}
 footer {
 	background-size: 0;
 }
+}
+
+
+
+
 
 }
