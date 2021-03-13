@@ -107,7 +107,7 @@ body {
 .bandeau h1 {
 	margin: 20px;
 	font-family: 'Allura', cursive;
-	font-size: 6rem;
+	font-size: 11vh;
 	text-shadow: 4px 4px black;
 }
 .bandeau p {
@@ -401,11 +401,12 @@ footer p{
 
 	}
 	.bandeau p{
-		font-size: 2rem;
+		font-size: 4vh;
 	}
 	.bandeau h1 {
-		font-size:4rem;
+		font-size:8vh;
 	}
+	
 
 	.selection {
 		display: flex;
