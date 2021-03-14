@@ -1,0 +1,269 @@
+/* Contenu du site */
+
+
+
+.vitrine {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bandeau {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: black;
+	position: relative;
+	object-fit: cover;
+	justify-content: center;
+	width: 101%;
+}
+.bandeau_pic {
+	display: flex;
+	opacity: 75%;	
+
+}
+
+.bandeau_text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #DFB78C;
+	
+}
+
+.bandeau h1 {
+	margin: 20px;
+	font-family: 'Allura', cursive;
+	font-size: 11vh;
+	text-shadow: 4px 4px black;
+}
+.bandeau p {
+	
+	font-family: 'Dancing Script', cursive;
+	font-size: 4vh;
+	font-style: none;
+	text-shadow: 2px 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Div du texte de présentation */
+.presentation_container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #310000;
+	width: 101%;
+
+}
+
+.presentation_container h1 {
+	font-family: 'Akaya Telivigala', cursive;
+	font-size: 32px;
+	
+}
+
+.presentation_container p{
+	font-family: Georgia;
+	font-size: 21px;
+	line-height: 31px;
+}
+
+.presentation_container a {
+	text-decoration: none;
+	color: #223645;
+}
+
+.presentation_container a:hover {
+	text-decoration: underline;
+	transition: 0.7s;
+	color: #1a1d26;
+}
+
+.dot {
+	height: 0.7vh;
+	width: 0.7vh;
+	background-color: #310000;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Dernière Recette */
+
+.last_recipe {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	background-color: black;
+	position: relative;
+	width: 101%;
+	justify-content: center;
+	color: white;
+	font-size: 4vh;
+	font-family: 'Akaya Telivigala', cursive;
+	text-shadow: 2px 2px black;
+
+}
+
+
+.last_recipe img {
+	height: 75vh;
+	object-position: 50% 70%; /* Utiliser pour déplacer l'image dans le cadre :) */
+	object-fit: cover;
+	background-color: black;
+	opacity: 80%;
+}
+
+.last_recipe p{
+	position: absolute;
+	top: 46%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 90vw;
+}
+
+.last_recipe:hover {
+	color: #DFB78C;
+	
+
+	
+}
+
+.last_recipe:hover.last_recipe img {
+	opacity: 50%;
+	transition: 0.15s;
+	filter: blur(2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Double bouton de sélection */
+
+.selection {
+
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100vw;
+	height: 100vh;
+	border-top: 4px solid;
+}
+
+.selection_item {
+	width: 50%;
+	height: 100%;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+
+}
+
+.selection_item p {
+	position: absolute;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 46px;
+	font-family: 'Akaya Telivigala', cursive;
+	text-shadow: 2px 2px black;
+	text-align: center;
+	width: 30vw;
+
+}
+.selection_item img {
+	object-fit: cover;
+	height: 100%;
+	max-width: 100%;
+	opacity: 50%;
+	filter: blur(3px);
+}
+
+.selection_item:hover.selection_item img {
+	opacity: 85%;
+	transition: 0.15s;
+	filter: blur(0px);
+}
+.selection_item:hover.selection_item p {
+	color: #DFB78C;
+}
+
+@media screen and (max-width: 1080px){
+
+
+	.bandeau_pic {
+		height: 62vh;
+		object-fit: cover;
+		object-position: 73% 50%;
+	}
+	.bandeau_text {
+		width: 80vw;
+	}
+	.bandeau p{
+		font-size: 4vh;
+	}
+	.bandeau h1 {
+		font-size:8vh;
+	}
+	
+
+	.selection {
+		display: flex;
+		flex-direction: column;
+		height: 110vh;
+	}
+
+	.selection_item {
+		width: 90vw;
+		height: 90vw;
+		margin-top: -25px;
+	}
+	.selection_item p{
+		width: 90vw;
+		font-size: 5vh;
+	}
+}
