@@ -20,7 +20,7 @@
 	height: 20vw;
 	object-fit: cover;
 	opacity: 70%;
-	border: 1px black solid;
+	border: 2px black solid;
 
 }
 
@@ -55,10 +55,12 @@
 	padding: 2px 20px 2px 20px;
 	border-radius: 5px;
 	font-family: 'Akaya Telivigala', cursive;
+	color:black;
 }
 
 .recette_titre {
 	background-color: white;
+	color: black;
 	font-family: 'Dancing Script', cursive;
 	font-size: 24px;
 	border-top: 1px black solid;
